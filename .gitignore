@@ -1,0 +1,27 @@
+# Terraform State
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Terraform Directory
+.terraform/
+
+# # Sensitive Variables
+# *.tfvars
+# *.tfvars.json
+
+# Terraform Plans
+*.tfplan
+
+# Terraform CLI Configuration
+.terraformrc
+terraform.rc
+
+# Override files
+override.tf
+
+# Crash logs
+crash.log
+
+#private keys
+*.pem
