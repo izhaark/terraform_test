@@ -11,8 +11,6 @@ variable "vpc_name" {
   description = "name of vpc"
 }
 
-# might need a vpc id variable
-
 ### SUBNET ###
 
 variable "public_subnets" {
@@ -35,8 +33,6 @@ variable "private_subnets" {
 }
 
 
-# might need a private subnet id
-
 ### NAT ###
 
 variable "nat_name" {
@@ -46,7 +42,7 @@ variable "nat_name" {
     default = "natgw"
 }
 
-### IGW
+### IGW ###
 
 variable "igw_name" {
   type = string

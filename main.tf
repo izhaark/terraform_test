@@ -1,5 +1,4 @@
 
-# this is the network module to crete the basic VPC. 
 
 
 module "network" {

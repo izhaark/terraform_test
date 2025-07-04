@@ -17,6 +17,3 @@ variable "rt_name" {
   default = null
 }
 
-#create outout
-#changes in network mod
-#cganges in root main for sg and rt
